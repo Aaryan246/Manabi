@@ -48,9 +48,13 @@ const StudentDashboard = () => {
   return (
     <div className="chats-page">
       <Header></Header>
+      <br/>
+      <h2>My Courses</h2>
       <div className="content">
         {/* <Sidebar></Sidebar> */}
+        
         <div className="mycourses">
+          
             {courses}
         </div>
       </div>
