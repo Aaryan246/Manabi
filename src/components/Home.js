@@ -1,14 +1,29 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
-function HomeDisplay(){
-    return(
+import React from "react";
+import { Link } from "react-router-dom";
+import Button from "react-bootstrap/Button";
+import logo from "../assets/Manabi.png";
+
+function HomeDisplay() {
+  return (
+    <div className="homeContainer">
+      <div className="homeText">
+        <img src={logo} width={400} height={400} />
         <div>
-        <h1>Home</h1>
-        <Link to="/studentlogin">
-          Login
-        </Link>
+          <Button variant="outline-light" size="lg" className="homeButton">
+            <Link to="/studentlogin" className="homeLinks">
+              Login For Student
+            </Link>
+          </Button>
+        </div>
+        <div>
+          <Button variant="outline-light" size="lg" className="homeButton">
+            <Link to="/teacherlogin" className="homeLinks">
+              Login For Teachers
+            </Link>
+          </Button>
+        </div>
       </div>
-    );
-   
+    </div>
+  );
 }
 export default HomeDisplay;

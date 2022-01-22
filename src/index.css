@@ -1,19 +1,17 @@
 /* Global */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-
 
 /* Chats Page */
 
@@ -93,3 +91,39 @@ code {
   color: white;
 }
 
+/* Home Page */
+
+.imageContainer {
+  margin-left: 36%;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: rgb(64, 11, 124);
+}
+
+.homeContainer {
+  background: linear-gradient(#f5f5b3, #bcf5f3);
+  height: 100vh;
+}
+
+.homeText {
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.homeLinks {
+  color: #fff;
+  text-decoration: none;
+}
+
+.homeButton {
+  margin: 1rem;
+  background: linear-gradient(#fce6c0, #faa24b);
+}
+
+.homeLinks:hover {
+  color: crimson;
+}
