@@ -64,7 +64,7 @@ function StudentCourseswithID(props){
             </div>
         )
     })
-    console.log(props.course);
+
     return(
         <div>
             <Header></Header>
