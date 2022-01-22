@@ -10,8 +10,19 @@ import Home from "./Home"
 import StudentCart from "./StudentCart"
 import StudentCourses from "./StudentCourses"
 import StudentCourseswithID from "./StudentCourseswithID";
-
+import data from "../data.json";
 function App(){
+    const StudentCoursesID = ({match}) => {
+      console.log(match.params)
+      return(
+          <StudentCourseswithID course={data.student[0].course.filter((course) => course.id === parseInt(match.params.mycoursesID,10))[0]}
+            // isLoading={this.props.dishes.isLoading}
+            // errMess={this.props.dishes.errMess}
+            // comments={this.props.comments.filter((comment) => comment.dishId === parseInt(match.params.dishId,10))}
+            // addComment={this.props.addComment}
+          />
+      );
+    };
     return (
       <div style={{ fontFamily: 'Avenir' }}>
 
@@ -20,7 +31,7 @@ function App(){
             <Switch>
               <Route exact path="/studentDashboard" component={StudentDashboard} />
               <Route exact path="/studentDashboard/courses" component={StudentCourses} />
-              <Route exact path='/studentDashboard/:mycoursesID' component={StudentCourseswithID} />
+              <Route exact path='/studentDashboard/:mycoursesID' component={StudentCoursesID} />
               <Route exact path="/studentDashboard/cart" component={StudentCart} />
               <Route path="/studentlogin" component={StudentLogin}/>
               <Route exact path="/" component={Home}></Route>

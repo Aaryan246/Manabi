@@ -6,7 +6,8 @@ import "./App.css";
 import "./StudentDashboard.css";
 import { Card, CardImg, CardImgOverlay,CardTitle, Breadcrumb, BreadcrumbItem } from 'reactstrap';
 // import Payment from "./Payment";
-
+import Header from "./Header";
+import Sidebar from "./Sidebar";
 
 function RenderMenuItem ({course, onClick}) {
   console.log(course);
@@ -35,14 +36,8 @@ const StudentDashboard = () => {
 
   const history = useHistory();
   const { user } = useAuth();
-  const [loading, setLoading] = useState(true);
-  console.log("user");
+
   console.log(user);
-  console.log(data);
-  const handleLogout = async () => {
-    history.push("/");
-  };
-  console.log(data.student[0].name);
   useEffect(() => {
     if (!user) {
       history.push("/");
@@ -52,24 +47,9 @@ const StudentDashboard = () => {
 
   return (
     <div className="chats-page">
-      <div className="nav-bar">
-        <div className="logo-tab">Course</div>
-        <div onClick={handleLogout} className="logout-tab">
-          Logout
-        </div>
-      </div>
+      <Header></Header>
       <div className="content">
-        <div className="sidebar"> 
-            <p className="name">hello {data.student[0].name}</p>
-            <div>
-            <Link className="link" to={"/studentDashboard/courses"}>Courses</Link>
-            </div>
-            <br/>
-            <div>
-              <Link className="link" to={"/studentDashboard/cart"}>Cart</Link>
-            </div>
-            
-        </div>
+        <Sidebar></Sidebar>
         <div className="mycourses">
             {courses}
         </div>
