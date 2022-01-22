@@ -1,0 +1,148 @@
+{
+    "student": [
+      {
+        "id": 0,
+        "name": "abc",
+        "email": "abc@gmail.com",
+        "course":[
+            {
+                "id":0,
+                "name": "react course",
+                "image":"dbkjdk.png",
+                "lecture":[
+                    {
+                        "id":1,
+                        "title":"chp1",
+                        "video": ""
+                    }
+                ]    
+            }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Zucchipakoda",
+        "email": "gjdo@gmail.com",
+        "course":[
+            {
+                "id":0,
+                "name": "react course",
+                "lecture":[
+                    {
+                        "id":1,
+                        "title":"chp1"
+                    }
+                ]    
+            }
+        ]
+      }
+    ],
+    "courses": [
+      {
+        "id": 0,
+        "description": "aqqqqqvsjldghtdjqdwhyjjjjwmjx, qlwwoipwildjdwljdjwllw",
+        "author": "John Lemon",
+        "feedback":[
+            {
+                "id":0,
+                "feedback-message":"hkdaaaajujdnmkdhskj  udujodind"
+            },
+            {
+                "id":1,
+                "feedback-message":"hkdaaaajujdnmkdhskj  udujodind ndakjldilsfiklsk"
+            }
+        
+        ],
+        "lecture":[
+            {
+                "id":1,
+                "title":"chp1"
+            },
+            {
+                "id":2,
+                "title":"chp2"
+            }
+        ], 
+        "date": "2012-10-16T17:57:28.556094Z"
+      },
+      {
+        "id": 0,
+        "description": "aqqqqqvsjldghtdjqdwhyjjjjwmjx, qlwwoipwildjdwljdjwllw",
+        "author": "John Lemon",
+        "feedback":[
+            {
+                "id":0,
+                "feedback-message":"hkdaaaajujdnmkdhskj  udujodind"
+            },
+            {
+                "id":1,
+                "feedback-message":"hkdaaaajujdnmkdhskj  udujodind ndakjldilsfiklsk"
+            }
+        
+        ],
+        "lecture":[
+            {
+                "id":1,
+                "title":"chp1"
+            },
+            {
+                "id":2,
+                "title":"chp2"
+            }
+        ], 
+        "date": "2012-10-16T17:57:28.556094Z"
+      }
+    ],
+    "admin": [
+      {
+        "id": 0,
+        "name": "Weekend Grand Buffet",
+        "password":"pass1",
+        "teacher":[
+            {
+                "id":0,
+                "teacher-name":"ahkjasl",
+                "proof":"proof.img"
+            }
+        ]
+      }
+    ],
+    "teachers": [
+      {
+        "id": 0,
+        "name": "Peter Pan",
+        "email":"abc@gmail.com",
+        "course":[
+            {
+                "id":0,
+                "name": "react course",
+                "lecture":[
+                    {
+                        "id":1,
+                        "title":"chp1",
+                        "video": ""
+                    }
+                ]    
+            }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Dhanasekaran Witherspoon",
+        "email":"abc@gmail.com",
+        "course":[
+            {
+                "id":0,
+                "name": "react course",
+                "lecture":[
+                    {
+                        "id":1,
+                        "title":"chp1",
+                        "video": ""
+                    }
+                ]    
+            }
+        ]
+      }
+    ]
+  }
