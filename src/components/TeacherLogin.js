@@ -15,7 +15,9 @@ function TeacherLogin(){
                 <h3>Password</h3>
                 <input type="text"></input>
                 <br/><br/>
+                <Link to="/teacherDashboard">
                 <button> Log in </button>
+                </Link>
                 <br/><br/>
                 <Link to="/teacherSignin">
                     Sign up
