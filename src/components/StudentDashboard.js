@@ -25,6 +25,7 @@ function RenderMenuItem ({course, onClick}) {
 const StudentDashboard = () => {
 
   const courses = data.student[0].course.map((course) => {
+    console.log(course);
         return (
         <div className="col-12 col-md-5 m-1"  key={course.id}>
             <RenderMenuItem dish={course} onClick={course.onClick} />
