@@ -18,6 +18,7 @@
 .content{
     width: 100%;
     display: flex;
+    background-color:#D9D7F1 ;
     
 }
 .mycourses{
@@ -25,6 +26,7 @@
     margin: 2rem;
     width: 100%;
     flex-wrap: wrap;
+
     justify-content: space-around;
     
 }
@@ -36,16 +38,23 @@
     width:100vw;
     margin: 2rem;
     margin: 1rem;
+    
+   
 }
 .courseimg{
     display: flex;
     justify-content: space-around;
+    
+
 }
 .courseimg-img{
     width: 30vw;
     height: 40vh;
+    
 }
 .completed{
-    background-color: green;
+    background-color: rgb(142, 209, 142);
    
 }
+
+  
