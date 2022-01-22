@@ -1,0 +1,12 @@
+#login-page {
+    background: linear-gradient(#79a0f3, #8fece9);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 200%;
+  }
+  .mycourses{
+    height: 40%;
+  }

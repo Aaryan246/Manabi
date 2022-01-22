@@ -16,7 +16,7 @@ function HeaderTeacher() {
 
             <div onClick={handleLogout} className="logout-tab">
                 Logout
-                
+
             </div>
             {/* <div className="course-tab" >
 
@@ -35,7 +35,9 @@ function HeaderTeacher() {
                 Home
                 
             </div> */}
-
+            <div to={"/TeacherDashboard"} className="Home-tab">
+                Home
+            </div>
         </div>
 
 
