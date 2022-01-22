@@ -7,16 +7,38 @@
         "course":[
             {
                 "id":0,
-                "name": "java course",
-                "image":"./assets/images/course1.png",
-                "description":"hkdqjakjdawldjwldk hdskjqujkamc",
+                "name": "Java course",
+                "image":"https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 "lecture":[
                     {
+                        "id":0,
+                        "title":"Learning the fundamental of Java",
+                        "completed": true,
+                        "description":"aqqqqqvsjldghtdjqdwhyjjjjwmjx, qlwwoipwildjdwljdjwllw",
+                        "video": "https://file-examples-com.github.io/uploads/2017/04/file_example_MP4_480_1_5MG.mp4"
+                    },
+                    {
                         "id":1,
-                        "title":"chp1",
-                        "video": ""
+                        "title":"OOP in Java",
+                        "completed": false,
+                        "description":"aqqqqqvsjldghtdjqdwhyjjjjwmjx, qlwwoipwildjdwljdjwllw",
+                        "video": "https://file-examples-com.github.io/uploads/2017/04/file_example_MP4_480_1_5MG.mp4"
                     }
-                ]    
+                ],
+                "feedback":[
+                    {
+                        "id":0,
+                        "feedback":"nice course",
+                        "author":"karan"
+                    },
+                    {
+                        "id":1,
+                        "feedback":"good course",
+                        "author":"jonny"
+                    }
+                ]
+
             },
             {
                 "id":1,

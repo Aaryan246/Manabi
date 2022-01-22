@@ -27,3 +27,18 @@
     width: 13rem;
     margin: 1rem;
 }
+.course-detail-div{
+    width:80vw;
+    margin: 1rem;
+}
+.courseimg{
+    display: flex;
+    justify-content: space-around;
+}
+.courseimg-img{
+    width: 30vw;
+    height: 40vh;
+}
+.completed{
+    background-color: green;
+}

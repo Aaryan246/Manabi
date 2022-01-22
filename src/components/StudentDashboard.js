@@ -10,7 +10,7 @@ import Header from "./Header";
 import Sidebar from "./Sidebar";
 
 function RenderMenuItem ({course, onClick}) {
-  console.log(course);
+  console.log(course.image);
   return (
       <Card>
           <Link to={`/studentDashboard/${course.id}`} >
@@ -31,7 +31,7 @@ const StudentDashboard = () => {
         <div className="courses"  key={course.id}>
             <RenderMenuItem course={course} onClick={course.onClick} />
         </div>
-        );
+  );
 });
 
   const history = useHistory();
