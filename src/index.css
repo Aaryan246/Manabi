@@ -153,3 +153,14 @@ code {
 .homeLinks:hover {
   color: crimson;
 }
+
+.Home-tab {
+  position: absolute;
+  top: 22px;
+  right: 278px;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 100%;
+  display: inline-block;
+}

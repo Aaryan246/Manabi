@@ -16,6 +16,7 @@ function Header() {
 
             <div onClick={handleLogout} className="logout-tab">
                 Logout
+                
             </div>
             <div className="course-tab" >
 
@@ -27,6 +28,12 @@ function Header() {
                 <Link className="link" to={"/studentDashboard/cart"}>
                     Cart
                 </Link>
+            </div>
+           
+            
+            <div onClick={handleLogout} className="Home-tab">
+                Home
+                
             </div>
 
         </div>
