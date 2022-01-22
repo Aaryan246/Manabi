@@ -1,18 +1,36 @@
-.courses-all{
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
+.courses-all {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.input{
-    margin: 2rem;
-    width: 20rem;
-    height: 3rem;
-    justify-content: right;
+.input {
+  margin: 2rem;
+  width: 20rem;
+  height: 3rem;
+  justify-content: right;
+  border: 3px solid #7d82b8;
+  padding-left: 15px;
+  border-radius: 25px;
+}
+.heading-course {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+}
 
+.course-header {
+  margin-top: 40px;
+  color: #7d82b8;
 }
-.heading-course{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+
+.course-card {
+  font-family: "Poppins", sans-serif;
+  padding: 1.2rem;
+}
+
+.course-bg {
+  background-color: #d9d7f1;
+  width: 100vw;
 }

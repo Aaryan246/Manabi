@@ -1,60 +1,106 @@
-.sidebar{
-    height: 90vh;
-    width: 20vw;
-    background: linear-gradient(#f8f6f4, #f77824);
+.sidebar {
+  height: 90vh;
+  width: 20vw;
+  background: linear-gradient(#f8f6f4, #f77824);
 }
-.sidebar p{
-    font-size: 2rem;
-    text-align: center;
-    background-color: rgb(252, 209, 19);
-    
+.sidebar p {
+  font-size: 2rem;
+  text-align: center;
+  background-color: rgb(252, 209, 19);
 }
-.link{
-    font-size: 100%;
-    text-align: right;
-    text-decoration: none;
-    color:#ffffff ;
+.link {
+  font-size: 100%;
+  text-align: right;
+  text-decoration: none;
+  color: #ffffff;
 }
-.content{
-    width: 100%;
-    display: flex;
-    background-color:#D9D7F1 ;
-    
+.content {
+  width: 100%;
+  display: flex;
+  background-color: #d9d7f1;
 }
-.mycourses{
-    display: flex;
-    margin: 2rem;
-    width: 100%;
-    flex-wrap: wrap;
-
-    justify-content: space-around;
-    
+.mycourses {
+  display: flex;
+  margin: 2rem;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-.courses{
-    width: 13rem;
-    margin: 1rem;
+.courses {
+  width: 13rem;
+  margin: 1rem;
 }
-.course-detail-div{
-    width:100vw;
-    margin: 2rem;
-    margin: 1rem;
-    
-   
+.course-detail-div {
+  width: 100vw;
+  margin: 2rem;
+  margin: 1rem;
 }
-.courseimg{
-    display: flex;
-    justify-content: space-around;
-    
-
+.courseimg {
+  display: flex;
+  justify-content: flex-start;
 }
-.courseimg-img{
-    width: 30vw;
-    height: 40vh;
-    
-}
-.completed{
-    background-color: rgb(142, 209, 142);
-   
+.courseimg-img {
+  width: 6rem;
+  height: 15rem;
+  margin: 1rem;
 }
 
-  
+.course-card-1 {
+  padding: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.lectures {
+  font-family: "Poppins", sans-serif;
+  padding: 2rem;
+}
+.completed {
+  color: rgb(96, 218, 96);
+}
+
+.feedback-card {
+  padding: 2rem;
+}
+
+.video-player {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
+
+.video-player p {
+  color: #000;
+  height: 15rem;
+}
+
+.markitdone {
+  border-radius: 20px !important;
+  margin-left: 10rem;
+}
+
+.lecture-card {
+  padding: 2rem;
+}
+
+.mycourse {
+  background-color: #d9d7f1;
+  height: 100vh;
+}
+
+.mycourse h2 {
+  padding: 1rem 3rem;
+  color: #7d82b8;
+}
+
+.Mycourse-card {
+  padding: 1rem;
+  width: 15rem;
+  border-radius: 15px !important;
+}
+
+.mycourse-link {
+  text-decoration: none;
+  color: #7d82b8;
+  text-align: center;
+}
