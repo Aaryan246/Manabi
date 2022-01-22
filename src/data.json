@@ -79,6 +79,7 @@
             "name": "Java course",
             "image":"https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png",
             "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "price":"5000",
             "lecture":[
                 {
                     "id":0,
@@ -115,6 +116,7 @@
         "image":"https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png",
         "description": "aqqqqqvsjldghtdjqdwhyjjjjwmjx, qlwwoipwildjdwljdjwllw",
         "author": "John Lemon",
+        "price":"3000",
         "feedback":[
             {
                 "id":0,
@@ -144,6 +146,7 @@
         "name": "Node js",
         "image":"https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png",
         "author": "John Lemon",
+        "price":"6000",
         "feedback":[
             {
                 "id":0,
@@ -208,15 +211,71 @@
         "course":[
             {
                 "id":0,
-                "name": "react course",
+                "author": "John",
+                "name": "Java course",
+                "image":"https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "price":"5000",
                 "lecture":[
                     {
+                        "id":0,
+                        "title":"Learning the fundamental of Java",
+                        "completed": true,
+                        "description":"aqqqqqvsjldghtdjqdwhyjjjjwmjx, qlwwoipwildjdwljdjwllw",
+                        "video": "https://file-examples-com.github.io/uploads/2017/04/file_example_MP4_480_1_5MG.mp4"
+                    },
+                    {
                         "id":1,
-                        "title":"chp1",
-                        "video": ""
+                        "title":"OOP in Java",
+                        "completed": false,
+                        "description":"aqqqqqvsjldghtdjqdwhyjjjjwmjx, qlwwoipwildjdwljdjwllw",
+                        "video": "https://file-examples-com.github.io/uploads/2017/04/file_example_MP4_480_1_5MG.mp4"
                     }
-                ]    
-            }
+                ],
+                "feedback":[
+                    {
+                        "id":0,
+                        "feedback":"nice course",
+                        "author":"karan"
+                    },
+                    {
+                        "id":1,
+                        "feedback":"good course",
+                        "author":"jonny"
+                    }
+                ]
+    
+            },
+          {
+            "id": 0,
+            "name": "mongo Db",
+            "image":"https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png",
+            "description": "aqqqqqvsjldghtdjqdwhyjjjjwmjx, qlwwoipwildjdwljdjwllw",
+            "author": "John Lemon",
+            "price":"3000",
+            "feedback":[
+                {
+                    "id":0,
+                    "feedback-message":"hkdaaaajujdnmkdhskj  udujodind"
+                },
+                {
+                    "id":1,
+                    "feedback-message":"hkdaaaajujdnmkdhskj  udujodind ndakjldilsfiklsk"
+                }
+            
+            ],
+            "lecture":[
+                {
+                    "id":1,
+                    "title":"chp1"
+                },
+                {
+                    "id":2,
+                    "title":"chp2"
+                }
+            ], 
+            "date": "2012-10-16T17:57:28.556094Z"
+          }
         ]
       }
     ]

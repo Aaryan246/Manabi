@@ -10,12 +10,24 @@ import Home from "./Home"
 import StudentCart from "./StudentCart"
 import StudentCourses from "./StudentCourses"
 import StudentCourseswithID from "./StudentCourseswithID";
+import TeacherLogin from "./TeacherLogin"
+import TeacherSignin from "./TeacherSignin"
+import TeacherDashboard from "./TeacherDashboard";
+import TeacherCoursewithID from "./TeacherCoursewithID"
 import data from "../data.json";
 function App(){
     const StudentCoursesID = ({match}) => {
       console.log(match.params)
       return(
           <StudentCourseswithID course={data.student[0].course.filter((course) => course.id === parseInt(match.params.mycoursesID,10))[0]}
+          />
+      );
+    };
+    const TeacherCourseID = ({match}) => {
+      console.log("hello")
+      console.log(match.params)
+      return(
+          <TeacherCoursewithID course={data.teachers[1].course.filter((course) => course.id === parseInt(match.params.mycoursesID,10))[0]}
           />
       );
     };
@@ -29,7 +41,11 @@ function App(){
               <Route exact path="/studentDashboard/courses" component={StudentCourses} />
               <Route exact path='/studentDashboard/:mycoursesID' component={StudentCoursesID} />
               <Route exact path="/studentDashboard/cart" component={StudentCart} />
+              <Route exact path="/teacherlogin" component={TeacherLogin}></Route>
               <Route path="/studentlogin" component={StudentLogin}/>
+              <Route path="/teachersignin" component={TeacherSignin}/>
+              <Route exact path="/teacherDashboard" component={TeacherDashboard}/>
+              <Route exact path="/teacherDashboard/:mycoursesID" component={TeacherCourseID}/>
               <Route exact path="/" component={Home}></Route>
               {/* <Route path="/userlogin" component={UserLogin}></Route> */}
               

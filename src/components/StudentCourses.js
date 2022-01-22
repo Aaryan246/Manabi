@@ -1,17 +1,10 @@
 import React, { Component, useState } from "react";
 import data from "../data.json";
 import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
-// import {
-//   Card,
-//   CardImg,
-//   CardImgOverlay,
-//   CardTitle,
-//   Breadcrumb,
-//   BreadcrumbItem,
-// } from "reactstrap";
 import "./StudentCourse.css";
 import Header from "./Header";
+import "./StudentCourse.css"
+import Header from './Header';
 
 function RenderCourse({ course, onClick }) {
   console.log(course.lecture.length);
@@ -31,6 +24,7 @@ function RenderCourse({ course, onClick }) {
         <Card.Text>
           <h5>{course.author}</h5>
           <h6>{course.lecture.length} lecture</h6>
+          <h6>{course.lecture.length} lecture   Rs. {course.price}</h6>
         </Card.Text>
         <Button variant="primary">Buy Course</Button>
       </Card.Body>
