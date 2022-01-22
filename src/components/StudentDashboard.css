@@ -1,16 +1,19 @@
 .sidebar{
-    height: 100vh;
+    height: 90vh;
     width: 20vw;
-    background-color:rgb(203, 170, 247);
+    background: linear-gradient(#f8f6f4, #f77824);
 }
 .sidebar p{
     font-size: 2rem;
     text-align: center;
+    background-color: rgb(252, 209, 19);
+    
 }
 .link{
-    font-size: 1.3rem;
-    text-align: center;
+    font-size: 100%;
+    text-align: right;
     text-decoration: none;
+    color: rgb(120, 247, 1);
 }
 .content{
     width: 100%;
@@ -22,6 +25,7 @@
     margin: 2rem;
     width: 100%;
     flex-wrap: wrap;
+    
 }
 .courses{
     width: 13rem;
@@ -41,4 +45,5 @@
 }
 .completed{
     background-color: green;
+   
 }
