@@ -7,8 +7,20 @@
         "course":[
             {
                 "id":0,
+                "name": "java course",
+                "image":"./assets/images/course1.png",
+                "lecture":[
+                    {
+                        "id":1,
+                        "title":"chp1",
+                        "video": ""
+                    }
+                ]    
+            },
+            {
+                "id":1,
                 "name": "react course",
-                "image":"dbkjdk.png",
+                "image":"./assets/images/course1.png",
                 "lecture":[
                     {
                         "id":1,

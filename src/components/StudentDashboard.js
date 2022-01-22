@@ -12,12 +12,12 @@ function RenderMenuItem ({course, onClick}) {
   console.log(course);
   return (
       <Card>
-          {/* <Link to={`/studentDashboard/courses/${course.id}`} > */}
-              {/* <CardImg width="100%" src={course.image} alt={course.name} />
+          <Link to={`/studentDashboard/${course.id}`} >
+              <CardImg width="100%" src={course.image} alt={course.name} />
               <CardImgOverlay>
                   <CardTitle>{course.name}</CardTitle>
-              </CardImgOverlay> */}
-          {/* </Link> */}
+              </CardImgOverlay>
+          </Link>
       </Card>
   );
 }
@@ -27,8 +27,8 @@ const StudentDashboard = () => {
   const courses = data.student[0].course.map((course) => {
     console.log(course);
         return (
-        <div className="col-12 col-md-5 m-1"  key={course.id}>
-            <RenderMenuItem dish={course} onClick={course.onClick} />
+        <div className="courses"  key={course.id}>
+            <RenderMenuItem course={course} onClick={course.onClick} />
         </div>
         );
 });
@@ -58,20 +58,23 @@ const StudentDashboard = () => {
           Logout
         </div>
       </div>
-      <div className="sidebar"> 
-          <p className="name">hello {data.student[0].name}</p>
-          <div>
-          <Link className="link" to={"/studentDashboard/courses"}>Courses</Link>
-          </div>
-          <br/>
-          <div>
-            <Link className="link" to={"/studentDashboard/cart"}>Cart</Link>
-          </div>
-          
+      <div className="content">
+        <div className="sidebar"> 
+            <p className="name">hello {data.student[0].name}</p>
+            <div>
+            <Link className="link" to={"/studentDashboard/courses"}>Courses</Link>
+            </div>
+            <br/>
+            <div>
+              <Link className="link" to={"/studentDashboard/cart"}>Cart</Link>
+            </div>
+            
+        </div>
+        <div className="mycourses">
+            {courses}
+        </div>
       </div>
-      <div className="mycourses">
-          {courses}
-      </div>
+      
        {/* <Payment></Payment> */}
     </div>
   );

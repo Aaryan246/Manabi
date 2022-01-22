@@ -12,3 +12,18 @@
     text-align: center;
     text-decoration: none;
 }
+.content{
+    width: 100%;
+    display: flex;
+    
+}
+.mycourses{
+    display: flex;
+    margin: 2rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.courses{
+    width: 13rem;
+    margin: 1rem;
+}
