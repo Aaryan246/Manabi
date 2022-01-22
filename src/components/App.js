@@ -13,6 +13,7 @@ import StudentCourseswithID from "./StudentCourseswithID";
 import TeacherLogin from "./TeacherLogin"
 import TeacherSignin from "./TeacherSignin"
 import TeacherDashboard from "./TeacherDashboard";
+import TeacherDashboardAddCourse from "./TeacherDashboardAddCourse";
 import TeacherCoursewithID from "./TeacherCoursewithID"
 import data from "../data.json";
 function App(){
@@ -45,6 +46,7 @@ function App(){
               <Route path="/studentlogin" component={StudentLogin}/>
               <Route path="/teachersignin" component={TeacherSignin}/>
               <Route exact path="/teacherDashboard" component={TeacherDashboard}/>
+              <Route exact path="/teacherDashboard/addcourse" component={TeacherDashboardAddCourse}/>
               <Route exact path="/teacherDashboard/:mycoursesID" component={TeacherCourseID}/>
               <Route exact path="/" component={Home}></Route>
               {/* <Route path="/userlogin" component={UserLogin}></Route> */}
