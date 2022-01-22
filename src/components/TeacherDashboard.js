@@ -49,6 +49,7 @@ const TeacherDashboard = () => {
       <HeaderTeacher></HeaderTeacher>
       <br/>
       <h2>My Courses</h2>
+      <button>Add Course</button>
       <div className="content">
         {/* <Sidebar></Sidebar> */}
         

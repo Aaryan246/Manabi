@@ -43,17 +43,8 @@ function TeacherCourseswithID(props) {
 )
 
     const lectures = props.course.lecture.map((lecture) => {
-        console.log(lecture);
-        let className = "notcompleted";
-        if (lecture.completed) {
-            className = "completed";
-
-        }
-        function markitcomplete() {
-            className = "completed";
-        }
         return (
-            <div className={className}>
+            <div>
 
                 <details>
                     <summary><h3>{lecture.title}</h3></summary>
@@ -63,8 +54,6 @@ function TeacherCourseswithID(props) {
                         width="720"
                         height="420"
                     />
-
-                    <button id='completedbtn' onClick={markitcomplete()}>Mark it as done</button>
                 </details>
             </div>
         )
@@ -74,6 +63,7 @@ function TeacherCourseswithID(props) {
         <div>
             <HeaderTeacher></HeaderTeacher>
             <button>Delete Course</button>
+            <button>Update Course</button>
             <div className="content">
                 <div className='course-detail-div'>
                     <RenderCourseInfo></RenderCourseInfo>
