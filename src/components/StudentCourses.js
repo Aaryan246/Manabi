@@ -4,7 +4,7 @@ import { Card, CardImg, CardImgOverlay,CardTitle, Breadcrumb, BreadcrumbItem } f
 import "./StudentCourse.css"
 import Header from './Header';
 function RenderCourse ({course, onClick}) {
-    console.log(course.lecture.length);
+    console.log(course.price);
     return (
         <Card>
             
@@ -13,7 +13,8 @@ function RenderCourse ({course, onClick}) {
                     <CardTitle>{course.name}</CardTitle>
                 </CardImgOverlay>
                 <h3>-{course.author}</h3>
-                <h6>{course.lecture.length} lecture</h6>
+                
+                <h6>{course.lecture.length} lecture   Rs. {course.price}</h6>
                 <button>Buy Now</button>
 
 
