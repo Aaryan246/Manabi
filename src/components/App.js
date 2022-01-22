@@ -16,6 +16,12 @@ import TeacherDashboard from "./TeacherDashboard";
 import TeacherDashboardAddCourse from "./TeacherDashboardAddCourse";
 import TeacherCoursewithID from "./TeacherCoursewithID"
 import data from "../data.json";
+import Admin from "./Admin"
+import AdminDashboard from './AdminDashboard'
+import AdminDashboardCourses from "./AdminDashboardCourses"
+import AdminDashboardTeacher from "./AdminDashboardTeacher"
+import AdminDashboardStudent from "./AdminDashboardStudent"
+import AdminDashboardVerification from "./AdminDashboardVerification"
 function App(){
     const StudentCoursesID = ({match}) => {
       console.log(match.params)
@@ -49,6 +55,12 @@ function App(){
               <Route exact path="/teacherDashboard/addcourse" component={TeacherDashboardAddCourse}/>
               <Route exact path="/teacherDashboard/:mycoursesID" component={TeacherCourseID}/>
               <Route exact path="/" component={Home}></Route>
+              <Route exact path="/admin" component={Admin}></Route>
+              <Route exact path="/adminDashboard" component={AdminDashboard}></Route>
+              <Route exact path="/adminDashboard/teacher" component={AdminDashboardTeacher}></Route>
+              <Route exact path="/adminDashboard/courses" component={AdminDashboardCourses}></Route>
+              <Route exact path="/adminDashboard/student" component={AdminDashboardStudent}></Route>
+              <Route exact path="/adminDashboard/verification" component={AdminDashboardVerification}></Route>
               {/* <Route path="/userlogin" component={UserLogin}></Route> */}
               
             </Switch>

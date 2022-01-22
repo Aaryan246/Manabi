@@ -22,6 +22,13 @@ function HomeDisplay() {
             </Link>
           </Button>
         </div>
+        <div>
+          <Button variant="outline-light" size="lg" className="homeButton">
+            <Link to="/admin" className="homeLinks">
+              Admin
+            </Link>
+          </Button>
+        </div>
       </div>
     </div>
   );
