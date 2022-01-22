@@ -69,7 +69,7 @@ function StudentCourseswithID(props){
         <div>
             <Header></Header>
             <div className="content">
-                <Sidebar></Sidebar>
+                {/* <Sidebar></Sidebar> */}
                 <div className='course-detail-div'>
                 <RenderCourseInfo></RenderCourseInfo>
                 <Card>

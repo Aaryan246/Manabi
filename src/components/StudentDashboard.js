@@ -49,7 +49,7 @@ const StudentDashboard = () => {
     <div className="chats-page">
       <Header></Header>
       <div className="content">
-        <Sidebar></Sidebar>
+        {/* <Sidebar></Sidebar> */}
         <div className="mycourses">
             {courses}
         </div>
