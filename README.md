@@ -3,7 +3,7 @@ We team FourthDimension participated in Unscript Rookies Hackathon organises by 
 
 ## Manabi
 Manabi is Webapp for <b>course management system</b>.<br>
-https://manabi.netlify.app/
+
 
 ## 🔥 Team FourthDimension
 - <a href="https://github.com/Aaryan246">Aaryan</a>
