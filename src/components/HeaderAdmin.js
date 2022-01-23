@@ -17,17 +17,17 @@ function HeaderAdmin() {
           Course
         </Link>
       </div>
-      <div className="cart-tab">
+      <div className="teach-admin-tab">
         <Link className="link" to={"/adminDashboard/teacher"}>
-          teacher
+          Teacher
         </Link>
       </div>
-      <div className="cart-tab">
+      <div className="student-admin-tab">
         <Link className="link" to={"/adminDashboard/student"}>
           Student
         </Link>
       </div>
-      <div className="cart-tab">
+      <div className="verf-admin-tab">
         <Link className="link" to={"/adminDashboard/verification"}>
           Verification
         </Link>

@@ -1,20 +1,39 @@
-.cart-tab{
-    position: absolute;
-    top: 22px;
-    right: 230px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 1.2rem;
-    display: inline-block;
+.teach-admin-tab {
+  position: absolute;
+  top: 22px;
+  right: 130px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: inline-block;
 }
-.Home-tab{
-    position: absolute;
-    top: 22px;
-    left: 280px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 1.2rem;
-    display: inline-block;
-    background-color: salmon;
 
+.student-admin-tab {
+  position: absolute;
+  top: 22px;
+  right: 430px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: inline-block;
+}
+
+.verf-admin-tab {
+  position: absolute;
+  top: 22px;
+  right: 230px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: inline-block;
+}
+.Home-tab {
+  position: absolute;
+  top: 22px;
+  left: 280px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: inline-block;
+  background-color: salmon;
 }
