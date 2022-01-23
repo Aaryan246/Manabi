@@ -18,25 +18,11 @@ function HeaderTeacher() {
                 Logout
 
             </div>
-            {/* <div className="course-tab" >
-
-                <Link className="link" to={"/teacherDashboard/courses"}>
-                    Course
-                </Link>
-            </div>
-            <div className="cart-tab">
-                <Link className="link" to={"/studentDashboard/cart"}>
-                    Cart
-                </Link>
-            </div>
-           
-            
-            <div onClick={handleLogout} className="Home-tab">
+        
+            <div className="course-tab">
+                <Link className="link" to={"/TeacherDashboard"}>
                 Home
-                
-            </div> */}
-            <div to={"/TeacherDashboard"} className="Home-tab">
-                Home
+                </Link>
             </div>
         </div>
 
