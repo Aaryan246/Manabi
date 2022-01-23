@@ -147,7 +147,7 @@ code {
 
 .homeContainer {
   background: linear-gradient(#f5f5b3, #bcf5f3);
-  height: 100vh;
+  height: 200vh;
 }
 
 .homeText {
@@ -170,7 +170,8 @@ code {
   background: linear-gradient(#fce6c0, #faa24b);
   width: 250px;
   border: 1px solid #fff;
-  border-radius: 25px !important;
+  border-radius: 50px !important;
+  height: 200%;
 }
 
 .homeLinks:hover {
