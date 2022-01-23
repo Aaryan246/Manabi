@@ -2,7 +2,7 @@
 We team FourthDimension participated in Unscript Rookies Hackathon organises by Fr. Conceicao Rodrigues College of Engineering Bandra and created Manabi.
 
 ## Manabi
-Manabi is Webapp for <b>course management system</b>.
+Manabi is Webapp for <b>course management system</b>.<br>
 https://manabi.netlify.app/
 
 ## 🔥 Team FourthDimension
