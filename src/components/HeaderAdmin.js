@@ -17,12 +17,12 @@ function HeaderAdmin() {
           Course
         </Link>
       </div>
-      <div className="teach-admin-tab">
+      <div className="Home-tab" id="teacher-nav">
         <Link className="link" to={"/adminDashboard/teacher"}>
           Teacher
         </Link>
       </div>
-      <div className="student-admin-tab">
+      <div className="Home-tab" id="student">
         <Link className="link" to={"/adminDashboard/student"}>
           Student
         </Link>
@@ -33,8 +33,10 @@ function HeaderAdmin() {
         </Link>
       </div>
 
-      <div to={"/adminDashboard"} className="Home-tab">
-        Home
+      <div id="Home-tab" className="Home-tab">
+        <Link className="link" to={"/adminDashboard"}>
+          Home
+        </Link>
       </div>
     </div>
   );

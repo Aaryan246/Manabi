@@ -179,7 +179,10 @@
         "teacher":[
             {
                 "id":0,
-                "teacher-name":"ahkjasl",
+                "selected": false,
+                "name":"ahkjasl",
+                "email":"abc@gmail.com",
+                "phone":"123456789",
                 "proof":"proof.img"
             }
         ]
