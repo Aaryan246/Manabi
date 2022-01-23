@@ -8,34 +8,19 @@ function HeaderTeacher() {
   };
   return (
     <div className="nav-bar">
-      <div className="logo-tab">Manabi</div>
+      <div className="logo-tab">Course</div>
 
-    const history = useHistory();
-    const handleLogout = async () => {
-        history.push("/");
-    };
-    return (
-        <div className="nav-bar">
+      <div onClick={handleLogout} className="logout-tab">
+        Logout
+      </div>
 
-            <div className="logo-tab">Course
-
-            </div>
-
-            <div onClick={handleLogout} className="logout-tab">
-                Logout
-
-            </div>
-        
-            <div className="course-tab">
-                <Link className="link" to={"/TeacherDashboard"}>
-                Home
-                </Link>
-            </div>
-        </div>
-
-
-
-    )
+      <div className="course-tab">
+        <Link className="link" to={"/TeacherDashboard"}>
+          Home
+        </Link>
+      </div>
+    </div>
+  );
 }
 
 export default HeaderTeacher;
