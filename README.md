@@ -16,7 +16,7 @@ Manabi is Webapp for <b>course management system</b>.<br>
 Get started by running the following commands:
 
 ```
-$ git clone git@github.com:hasura/gatsby-gitbook-starter.git
+$ git clone https://github.com/karishmarajput/FourthDimension.git
 $ cd gatsby-gitbook-starter
 $ npm install
 $ npm start
