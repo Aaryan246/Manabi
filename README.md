@@ -17,7 +17,7 @@ Get started by running the following commands:
 
 ```
 $ git clone https://github.com/karishmarajput/FourthDimension.git
-$ cd gatsby-gitbook-starter
+$ cd FourthDimension
 $ npm install
 $ npm start
 ```
